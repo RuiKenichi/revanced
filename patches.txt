@@ -1,3 +1,33 @@
 # EXCLUDE PATCHES FROM BELOW. DO NOT REMOVE THIS LINE
+amoled
+exclusive-background-playback
+disable-create-button
+tasteBuilder-remover
+swipe-controls
+downloads
+enable-debugging
+custom-playback-speed
+custom-video-buffer
+always-autorepeat
+general-ads
+hide-infocard-suggestions
+hide-time-and-seekbar
+old-quality-layout
+enable-wide-searchbar
+disable-fullscreen-panels
+hide-autoplay-button
+custom-branding
+hide-create-button
+hide-shorts-button
+hide-video-buttons
+theme
+hide-email-address
+hide-cast-button
+tablet-mini-player
+hide-watermark
+disable-auto-player-popup-panels
+disable-auto-captions
+compact-header
+exclusive-audio-playback
 
 # INCLUDE PATCHES FROM BELOW. DO NOT REMOVE THIS LINE

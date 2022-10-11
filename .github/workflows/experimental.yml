@@ -5,16 +5,17 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
 
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v3.1.0
 
       - name: Setup Java JDK
-        uses: actions/setup-java@v3.3.0
+        uses: actions/setup-java@v3.5.1
         with:
           java-version: "17"
-          distribution: "adopt"
+          distribution: "liberica"
 
       - name: Download APKs from APKMirror
         run: ./download_apkmirror.sh
@@ -23,7 +24,7 @@ jobs:
         run: ./build_revanced.sh experimental
 
       - name: Set current date as env variable
-        run: echo "date_now=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
+        run: echo "date_now=$(date +'%A, %d %B %Y')" >> $GITHUB_ENV
 
       - uses: marvinpinto/action-automatic-releases@latest
         with:
