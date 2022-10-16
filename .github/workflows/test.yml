@@ -18,7 +18,7 @@ jobs:
         with:
           java-version: "17"
           distribution: "liberica"
-          java-package: "jdk+fx"
+          java-package: jdk+fx
 
       - name: Download APKs from APKMirror
         run: ./download_apkmirror.sh
