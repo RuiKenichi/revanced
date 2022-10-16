@@ -15,7 +15,7 @@ jobs:
         uses: actions/setup-java@v3.5.1
         with:
           java-version: "17"
-          distribution: "temurin"
+          distribution: "liberica"
           java-package: jdk+fx
 
       - name: Download APKs from APKMirror
