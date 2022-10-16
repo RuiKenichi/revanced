@@ -8,18 +8,15 @@ on:
 jobs:
   build:
     runs-on: ubuntu-22.04
-    strategy: 
-      matrix:
-        java: [ '8', '11', '17' ]
 
     steps:
       - name: Checkout
         uses: actions/checkout@v3.1.0
 
-      - name: Setup Java JDK Version: ${{ matrix.java }}
+      - name: Setup Java JDK
         uses: actions/setup-java@v3.5.1
         with:
-          java-version: ${{ matrix.java }}
+          java-version: "17"
           distribution: "liberica"
           java-package: "jdk+fx"
           cache: 'gradle'
