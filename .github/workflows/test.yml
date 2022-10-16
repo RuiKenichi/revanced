@@ -19,7 +19,6 @@ jobs:
           java-version: "17"
           distribution: "liberica"
           java-package: "jdk+fx"
-          cache: 'gradle'
 
       - name: Download APKs from APKMirror
         run: ./download_apkmirror.sh
