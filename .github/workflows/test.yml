@@ -34,4 +34,12 @@ jobs:
               exit 1
             fi
           done
-          rm -rf build
+      
+      - name: Upload Artifact
+      - uses: actions/upload-artifact@v3
+        with:
+          name: Revanced
+          path: build/*.apk
+          
+      - name: Remove Build Directory
+      - run: rm -rf build
