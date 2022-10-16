@@ -35,7 +35,8 @@ jobs:
             fi
           done
       
-      - name: Upload Artifact
       - uses: actions/upload-artifact@v3
         with:
-          path: build/*.apk
+          name: my-artifact
+          path: build/*
+
