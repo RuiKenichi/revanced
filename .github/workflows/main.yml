@@ -5,7 +5,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-22.04
+    runs-on: macos-12
 
     steps:
       - name: Checkout
@@ -15,7 +15,7 @@ jobs:
         uses: actions/setup-java@v3.5.1
         with:
           java-version: "17"
-          distribution: "liberica"
+          distribution: "temurin"
 
       - name: Download APKs from APKMirror
         run: ./download_apkmirror.sh
