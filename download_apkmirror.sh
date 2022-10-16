@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
-# declare -A apks
+declare -A apks
 
-declare -a apks["com.google.android.youtube.apk"]=dl_yt
-declare -a apks["com.google.android.apps.youtube.music.apk"]=dl_ytm
+apks["com.google.android.youtube.apk"]=dl_yt
+apks["com.google.android.apps.youtube.music.apk"]=dl_ytm
 
 ## Functions
 

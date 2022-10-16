@@ -19,12 +19,12 @@ included_patches="$(tail -n +$included_start $patch_file | grep '^[^#[:blank:]]'
 declare -a patches
 
 # Artifacts associative array aka dictionary
-# declare -A artifacts
+declare -A artifacts
 
-declare -a artifacts["revanced-cli.jar"]="revanced/revanced-cli revanced-cli .jar"
-declare -a artifacts["revanced-integrations.apk"]="revanced/revanced-integrations app-release-unsigned .apk"
-declare -a artifacts["revanced-patches.jar"]="revanced/revanced-patches revanced-patches .jar"
-declare -a artifacts["apkeep"]="EFForg/apkeep apkeep-x86_64-unknown-linux-gnu"
+artifacts["revanced-cli.jar"]="revanced/revanced-cli revanced-cli .jar"
+artifacts["revanced-integrations.apk"]="revanced/revanced-integrations app-release-unsigned .apk"
+artifacts["revanced-patches.jar"]="revanced/revanced-patches revanced-patches .jar"
+artifacts["apkeep"]="EFForg/apkeep apkeep-x86_64-unknown-linux-gnu"
 
 ## Functions
 
