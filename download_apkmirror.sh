@@ -2,8 +2,8 @@
 
 # declare -A apks
 
-declare -A apks["com.google.android.youtube.apk"]=dl_yt
-declare -A apks["com.google.android.apps.youtube.music.apk"]=dl_ytm
+declare -a apks["com.google.android.youtube.apk"]=dl_yt
+declare -a apks["com.google.android.apps.youtube.music.apk"]=dl_ytm
 
 ## Functions
 

@@ -21,10 +21,10 @@ declare -a patches
 # Artifacts associative array aka dictionary
 # declare -A artifacts
 
-declare -A artifacts["revanced-cli.jar"]="revanced/revanced-cli revanced-cli .jar"
-declare -A artifacts["revanced-integrations.apk"]="revanced/revanced-integrations app-release-unsigned .apk"
-declare -A artifacts["revanced-patches.jar"]="revanced/revanced-patches revanced-patches .jar"
-declare -A artifacts["apkeep"]="EFForg/apkeep apkeep-x86_64-unknown-linux-gnu"
+declare -a artifacts["revanced-cli.jar"]="revanced/revanced-cli revanced-cli .jar"
+declare -a artifacts["revanced-integrations.apk"]="revanced/revanced-integrations app-release-unsigned .apk"
+declare -a artifacts["revanced-patches.jar"]="revanced/revanced-patches revanced-patches .jar"
+declare -a artifacts["apkeep"]="EFForg/apkeep apkeep-x86_64-unknown-linux-gnu"
 
 ## Functions
 
