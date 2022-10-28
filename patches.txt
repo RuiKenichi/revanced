@@ -36,5 +36,7 @@ comments
 hide-crowdfunding-box
 hide-album-cards
 hdr-auto-brightness
+hide-captions-button
+hide-artist-card
 
 # INCLUDE PATCHES FROM BELOW. DO NOT REMOVE THIS LINE
