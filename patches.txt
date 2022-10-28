@@ -31,5 +31,10 @@ disable-auto-player-popup-panels
 disable-auto-captions
 compact-header
 exclusive-audio-playback
+hide-my-mix
+comments
+hide-crowdfunding-box
+hide-album-cards
+hdr-auto-brightness
 
 # INCLUDE PATCHES FROM BELOW. DO NOT REMOVE THIS LINE
