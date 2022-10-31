@@ -38,5 +38,6 @@ hide-album-cards
 hdr-auto-brightness
 hide-captions-button
 hide-artist-card
+hide-watch-in-vr
 
 # INCLUDE PATCHES FROM BELOW. DO NOT REMOVE THIS LINE
