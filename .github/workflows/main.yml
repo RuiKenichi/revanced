@@ -11,6 +11,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3.1.0
 
+      - name: Upgrade Installed Package
+        run: sudo apt update && sudo apt upgrade
+        
       - name: Setup Java JDK
         uses: actions/setup-java@v3.6.0
         with:
