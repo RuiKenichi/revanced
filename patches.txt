@@ -7,7 +7,7 @@ disable-create-button
 tasteBuilder-remover
 swipe-controls
 downloads
-enable-debugging
+debugging
 custom-playback-speed
 custom-video-buffer
 always-autorepeat
