@@ -42,5 +42,6 @@ hide-watch-in-vr
 hide-info-cards
 hide-endscreen-cards
 custom-video-speed
+disable-zoom-haptics
 
 # INCLUDE PATCHES FROM BELOW. DO NOT REMOVE THIS LINE
